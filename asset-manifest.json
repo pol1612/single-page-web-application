@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/single-page-web-application/static/css/main.dc3f1e1e.css",
+    "main.js": "/single-page-web-application/static/js/main.9a571dbb.js",
+    "index.html": "/single-page-web-application/index.html",
+    "main.dc3f1e1e.css.map": "/single-page-web-application/static/css/main.dc3f1e1e.css.map",
+    "main.9a571dbb.js.map": "/single-page-web-application/static/js/main.9a571dbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc3f1e1e.css",
+    "static/js/main.9a571dbb.js"
+  ]
+}
