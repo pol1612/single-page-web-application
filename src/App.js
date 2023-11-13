@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import  {Home}  from "./pages/Home";
-import  {Products}  from "./pages/Products";
-import  {Contact}  from "./pages/Contact";
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Home}  from "./pages/Home";
+import {Products}  from "./pages/Products";
+import {Contact}  from "./pages/Contact";
 import {PageNotFound} from "./pages/PageNotFound"
 import {Navbar} from "./pages/Navbar";
 import {Footer} from "./pages/Footer";
@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Navbar/> 
       <Routes>
-        <Route path="/" element = {<Home />} />
-        <Route path="/products" element = {<Products />}  />
-        <Route path="/contact" element = {<Contact />} />
-        <Route path="*" element = { <PageNotFound /> } />
+        <Route path="/single-page-web-application/" element = {<Home />} />
+        <Route path="/single-page-web-application/products" element = {<Products />}  />
+        <Route path="/single-page-web-application/contact" element = {<Contact />} />
+        <Route path="/single-page-web-application/*" element = { <PageNotFound /> } />
       </Routes>
       <Footer/>
     </Router>
