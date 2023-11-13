@@ -13,7 +13,7 @@ function App() {
       <Navbar/> 
       <Routes>
         <Route path="/single-page-web-application/" element = {<Home />} />
-        <Route path="/single-page-web-application/products" element = {<Products />}  />
+        <Route path="/single-page-web-application/2/products" element = {<Products />}  />
         <Route path="/single-page-web-application/contact" element = {<Contact />} />
         <Route path="/single-page-web-application/*" element = { <PageNotFound /> } />
       </Routes>
