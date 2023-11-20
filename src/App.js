@@ -8,14 +8,14 @@ import {Footer} from "./pages/Footer";
 import "./App.css"
 
 function App() {
-  return (
-    <Router>
+  return (   
+    <Router basename = {process.env.PUBLIC_URL}>
       <Navbar/> 
       <Routes>
-        <Route path="/single-page-web-application/" element = {<Home />} />
-        <Route path="/single-page-web-application/2/products" element = {<Products />}  />
-        <Route path="/single-page-web-application/contact" element = {<Contact />} />
-        <Route path="/single-page-web-application/*" element = { <PageNotFound /> } />
+        <Route path="/" element = {<Home />} />
+        <Route path="/products" element = {<Products />}  />
+        <Route path="/contact" element = {<Contact />} />
+        <Route path="/*" element = { <PageNotFound /> } />
       </Routes>
       <Footer/>
     </Router>
